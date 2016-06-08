@@ -1,7 +1,13 @@
 #### JS Questions:
 
-* Explain event delegation
-* Explain how `this` works in JavaScript
+* Explain event delegation - https://www.sitepoint.com/javascript-event-delegation-is-easier-than-you-think/
+JavaScript events are the bedrock of interactive web pages and apps. It is a technique by which you add a single event handler to a prent element in order to avoid having to add multiple event handlers to child elements.
+
+* Explain how `this` works in JavaScript - http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/
+All functions in JavaScript have properties, just as objects have properties. And when a function executes, it gets the this property—a variable with the value of the object that invokes the function where this is used. 
+
+The this reference ALWAYS refers to (and holds the value of) an object—a singular object—and it is usually used inside a function or a method, although it can be used outside a function in the global scope. Note that when we use strict mode, this holds the value of undefined in global functions and in anonymous functions that are not bound to any object.
+
 * Explain how prototypal inheritance works
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
